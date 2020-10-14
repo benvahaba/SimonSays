@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_nickname">בחר כינוי</string>
+    <string name="current_score">ניקוד נוכחי</string>
+    <string name="logout">התנתק</string>
+    <string name="login_with_google">התחבר מחשבון הגוגל שלך</string>
+    <string name="easy">קל</string>
+    <string name="hall_of_fame">היכל התהילה</string>
+    <string name="hard">קשה</string>
+    <string name="mid">בינוני</string>
+    <string name="play">שחק</string>
+    <string name="type_in_your_nickname_and_press_the_above_button">הקלד את הכינוי שלך</string>
+    <string name="NickNameStartingText">"שלום "</string>
+    <string name="UserBestScoreStartingText">התוצאה הכי גבוהה שלך</string>
+    <string name="continue_rsrc">המשך</string>
+    <string name="your_final_score">תוצאה סופית</string>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PlayActivity">
+
+    <TextView
+        android:id="@+id/HighestScorePlayAcTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rounded_yellow_button"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/UserNickNameInPlayAcTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginTop="90dp"
+        android:background="@drawable/rounded_yellow_button"
+        android:text=""
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/playBTN"
+        android:layout_width="match_parent"
+
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginTop="305dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/play"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/halloffameBTN"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginTop="400dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onHOFBTNclicked"
+        android:text="@string/hall_of_fame"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/easyBTN"
+        android:layout_toRightOf="@+id/midBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginTop="400dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="oneasyBTNclick"
+        android:text="@string/easy"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/midBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+
+
+        android:layout_marginTop="400dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onmidBTNclick"
+        android:text="@string/mid"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/hardBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="400dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onhardBTNclick"
+        android:text="@string/hard"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:onClick="showInfo"
+        android:id="@+id/infoBTN"
+        android:layout_width="80dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+
+        android:layout_marginEnd="285dp"
+
+        android:layout_marginBottom="31dp"
+        android:background="@android:drawable/ic_dialog_info" />
+
+</RelativeLayout>

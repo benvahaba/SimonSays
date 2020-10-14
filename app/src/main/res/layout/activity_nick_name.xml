@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nickNameActivityColor"
+    tools:context=".NickNameActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+
+            android:id="@+id/ChooseNickName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/round_bg"
+            android:clickable="false"
+            android:text="@string/choose_nickname" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="Type in your NickName here"
+            android:inputType="textPersonName"
+            android:onClick="OnEditTextClick"
+            android:text="" />
+    </LinearLayout>
+
+
+</RelativeLayout>

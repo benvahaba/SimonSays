@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4499F8</color>
+    <color name="colorPrimaryDark">#1480DB</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="nickNameActivityColor">#93D6F3</color>
+    <color name="yellow">#FFC300</color>
+    <color name="white">#fff</color>
+    <color name="gameviewactivitybackground">#a9ddf8</color>
+    <color name="redCarpetColor">#c32a2a</color>
+    <color name="redCarpetTVCrowYellowColor">#FFEB3B</color>
+
+    <color name="brightYello">#FDE476</color>
+
+</resources>
